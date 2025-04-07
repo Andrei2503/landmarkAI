@@ -1,0 +1,104 @@
+                           precision    recall  f1-score   support
+
+      Acropolis of Athens       0.65      0.70      0.67        44
+       Alcázar of Seville       0.72      0.53      0.61        34
+                 Alhambra       0.72      0.65      0.68        43
+             Amalfi Coast       0.66      0.57      0.61        40
+               Angkor Wat       0.68      0.66      0.67        41
+       Auschwitz-Birkenau       0.87      0.51      0.65        39
+      Banff National Park       0.85      0.59      0.70        37
+    Basilica di San Marco       0.68      0.64      0.66        33
+                  Big Ben       0.65      0.83      0.73        42
+         Brandenburg Gate       0.84      0.79      0.82        39
+        Buckingham Palace       0.69      0.82      0.75        44
+             Burj Al Arab       0.45      0.68      0.54        37
+             Burj Khalifa       0.74      0.67      0.70        42
+                 CN Tower       0.74      0.46      0.57        37
+                    Capri       0.49      0.51      0.50        37
+           Charles Bridge       0.55      0.67      0.61        46
+             Chichen Itza       0.91      0.73      0.81        44
+      Christ the Redeemer       0.78      0.70      0.74        20
+      Château de Chambord       0.61      0.66      0.63        38
+             Cinque Terre       0.73      0.71      0.72        34
+          Cliffs of Moher       0.85      0.89      0.87        37
+                Colosseum       0.64      0.65      0.65        46
+             Douro Valley       0.79      0.65      0.71        34
+       Dubrovnik Old Town       0.41      0.40      0.41        47
+         Edinburgh Castle       0.78      0.51      0.62        35
+             Eiffel Tower       0.76      0.81      0.79        52
+    Empire State Building       0.61      0.61      0.61        41
+       Florence Cathedral       0.55      0.76      0.64        34
+           Forbidden City       0.62      0.66      0.64        44
+         Giant's Causeway       0.75      0.79      0.77        34
+       Golden Gate Bridge       0.64      0.86      0.73        42
+             Grand Canyon       0.63      0.77      0.69        47
+      Great Wall of China       0.86      0.61      0.71        41
+ Guggenheim Museum Bilbao       0.60      0.43      0.50         7
+             Hagia Sophia       0.71      0.71      0.71        41
+                Hallstatt       0.76      0.82      0.78        38
+         Hermitage Museum       0.59      0.64      0.61        36
+           Hollywood Sign       0.76      0.79      0.77        43
+                    Ibiza       0.53      0.78      0.63        36
+          Kraków Old Town       0.33      0.41      0.37        39
+                  Kremlin       0.54      0.53      0.53        38
+    Leaning Tower of Pisa       0.79      0.63      0.70        41
+         Lisbon Cathedral       0.71      0.65      0.68        23
+               London Eye       0.50      0.67      0.57        36
+         Louvre Abu Dhabi       0.76      0.76      0.76        34
+             Machu Picchu       0.93      0.86      0.89        43
+               Matterhorn       0.87      0.59      0.70        46
+               Mesa Verde       0.86      0.84      0.85        37
+                  Meteora       0.61      0.77      0.68        43
+      Mezquita of Córdoba       0.68      0.62      0.65        34
+          Milan Cathedral       0.82      0.79      0.81        34
+        Mont Saint-Michel       0.66      0.77      0.71        35
+               Mount Fuji       0.67      0.76      0.71        41
+           Mount Rushmore       0.83      0.70      0.76        43
+              Mount Teide       0.81      0.72      0.76        18
+    Neuschwanstein Castle       0.74      0.76      0.75        37
+            Niagara Falls       0.80      0.86      0.83        43
+     Notre-Dame Cathedral       0.52      0.76      0.61        41
+            Palm Jumeirah       0.62      0.79      0.69        33
+                 Pantheon       0.96      0.64      0.77        39
+               Park Güell       0.55      0.55      0.55        38
+              Pena Palace       0.70      0.74      0.72        38
+                    Petra       0.85      0.91      0.88        44
+          Plaza de España       0.52      0.62      0.56        39
+           Plitvice Lakes       0.79      0.87      0.83        39
+                  Pompeii       0.64      0.23      0.33        31
+            Prague Castle       0.73      0.58      0.65        38
+         Pyramids of Giza       0.92      0.56      0.70        43
+               Red Square       0.55      0.32      0.41        37
+            Rialto Bridge       0.90      0.70      0.79        37
+              Roman Forum       0.64      0.68      0.66        37
+          Sagrada Familia       0.66      0.85      0.74        41
+  Saint Basil's Cathedral       0.69      0.62      0.65        39
+                Santorini       0.64      0.78      0.70        41
+        Schönbrunn Palace       0.81      0.68      0.74        38
+      Sheikh Zayed Mosque       0.48      0.79      0.60        34
+           Sistine Chapel       0.69      0.83      0.75        35
+             Space Needle       0.59      0.76      0.67        38
+     St. Paul's Cathedral       0.85      0.65      0.73        34
+     St. Peter's Basilica       0.62      0.42      0.50        38
+        Statue of Liberty       0.60      0.52      0.56        50
+               Stonehenge       0.89      0.89      0.89        44
+       Sydney Opera House       0.60      0.71      0.65        41
+                Taj Mahal       0.77      0.87      0.82        61
+                 Tenerife       0.68      0.64      0.66        36
+          Terracotta Army       0.48      0.73      0.58        44
+               The Louvre       0.81      0.58      0.68        45
+             Tower Bridge       0.93      0.78      0.85        36
+          Tower of London       0.78      0.47      0.59        38
+           Trevi Fountain       0.88      0.83      0.86        36
+                    Uluru       0.83      0.80      0.81        44
+          Vatican Museums       0.50      0.53      0.51        34
+            Venice Canals       0.60      0.72      0.66        40
+        Versailles Palace       0.61      0.75      0.68        36
+           Victoria Falls       0.94      0.81      0.87        42
+             Wawel Castle       0.68      0.57      0.62        30
+        Westminster Abbey       0.61      0.54      0.58        35
+Yellowstone National Park       0.81      0.59      0.68        44
+
+                 accuracy                           0.68      3779
+                macro avg       0.70      0.68      0.68      3779
+             weighted avg       0.70      0.68      0.68      3779

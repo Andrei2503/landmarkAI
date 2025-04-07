@@ -2,6 +2,7 @@ import torch
 from torchvision import transforms
 from PIL import Image
 import os
+import json
 
 # Конфигурация (должна совпадать с тренировочной)
 DEVICE = torch.device("cpu")
@@ -71,17 +72,3 @@ def predict_image(image_path):
     
     except Exception as e:
         return f"Error: {str(e)}"
-
-# УКАЖИТЕ ПУТЬ К ВАШЕМУ ИЗОБРАЖЕНИЮ ЗДЕСЬ
-image_path = "image.png"  # Измените на свой путь
-
-# Примеры путей для разных ОС:
-# Linux/Mac: "/home/user/images/cat.jpg"
-# Windows: r"C:\Users\user\images\dog.jpg" или "C:\\Users\\user\\images\\dog.jpg"
-
-# Выполнение предсказания
-if os.path.exists(image_path):
-    prediction = predict_image(image_path)
-    print(f"Predicted class: {prediction}")
-else:
-    print(f"File not found: {image_path}")
