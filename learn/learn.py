@@ -182,20 +182,3 @@ for epoch in range(NUM_EPOCHS):
 model.load_state_dict(torch.load("best_model.pth", map_location=DEVICE))
 test_acc = evaluate(test_loader)
 print(f"\nFinal Test Accuracy: {test_acc*100:.2f}%")
-
-# Генерация отчетов
-model.eval()
-all_preds = []
-all_labels = []
-with torch.no_grad():
-    for images, labels in test_loader:
-        outputs = model(images)
-        _, preds = torch.max(outputs, 1)
-        all_preds.extend(preds.cpu().numpy())
-        all_labels.extend(labels.cpu().numpy())
-
-print("\nClassification Report:")
-print(classification_report(all_labels, all_preds, target_names=train_dataset.dataset.classes))
-
-with open("results.txt", "w") as f:
-    f.write(classification_report(all_labels, all_preds, target_names=train_dataset.dataset.classes))
